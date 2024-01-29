@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Page</title>
+    <link rel="stylesheet" href="css/clothing.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>CLOTHING</h1>
+        </div>
+    </header>
+
+    <div class="item" id="item1">
+        <h2>Item 1 - T-Shirt</h2>
+        <img src="images/tshirt.webp" alt="Jeans">
+        <p>Description: Comfortable cotton T-shirt</p>
+        <p>Price: 2000.00</p>
+        <button onclick="showDetails('item1')">Add to Cart</button>
+        <div class="details" id="details1">
+            <!-- Additional details will be displayed here -->
+        </div>
+    </div>
+
+    <div class="item" id="item2">
+        <h2>Item 2 - Jeans</h2>
+        <img src="images/jean.webp" alt="Jeans">
+        <p>Description: Classic blue denim jeans</p>
+        <p>Price: 1500.00</p>
+        <button onclick="showDetails('item2')">Add to Cart</button>
+        <div class="details" id="details2">
+            <!-- Additional details will be displayed here -->
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; SHOPSY</p>
+        </div>
+    </footer>
+
+
+    <!-- Add more items as needed -->
+
+    <script src="clothing.js"></script>
+</body>
+</html>

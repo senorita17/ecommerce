@@ -1,0 +1,38 @@
+/* Add your clothing-specific styles here */
+
+.item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.details {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
